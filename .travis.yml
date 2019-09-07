@@ -22,9 +22,8 @@ jobs:
         - echo $TRAVIS_BRANCH
         - echo $TRAVIS_PULL_REQUEST
         - echo xxxg
-        - chmod +x ./gradlew
       script:
         - |
           if [ $TRAVIS_BRANCH == "develop" && $TRAVIS_PULL_REQUEST == "false" ]; then
-
+              echo ififi
           fi
