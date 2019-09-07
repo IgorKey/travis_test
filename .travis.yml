@@ -22,7 +22,7 @@ jobs:
         - SET
         - echo $TRAVIS_BRANCH
         - echo $TRAVIS_PULL_REQUEST
-        - echo before_script
+        - echo xxx
         - chmod +x ./gradlew
       script:
         - |
